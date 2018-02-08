@@ -21,9 +21,9 @@ class Artist
 
   def add_song_by_name(name) #FIX
     song = Song.new(name)
-    @@song_count += 1
     song.artist = self
     @songs << song
+    @@song_count += 1
   end
 
   def self.song_count
