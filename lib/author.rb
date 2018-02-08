@@ -4,6 +4,7 @@ class Author
   def initialize(name)
     @name=name
     @posts=[]
+    @post_title = post_title
     @@post_count = 0
     @@post_count +=1
   end
