@@ -26,7 +26,7 @@ class Author
     @posts << post
     post
     @@post_count += 1
-
+    binding.pry
   end
 
   def self.post_count #FIX
