@@ -11,7 +11,7 @@ class Post
   end
 
   def author
-    title.author = self
+    @author
     #self.author.name = Author #FIX
   end
 
