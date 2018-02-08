@@ -22,7 +22,7 @@ class Author
     @@counter += 1
   end
 
-  def self.post_count
+  def self.post_count #FIX
     @@counter
   end
 
