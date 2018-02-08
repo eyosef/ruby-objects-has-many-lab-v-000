@@ -10,6 +10,7 @@ class Post
   end
 
   def author
+    self.author = Author
     #self.author.name = Author #FIX
   end
 
