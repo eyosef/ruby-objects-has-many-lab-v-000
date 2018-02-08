@@ -13,4 +13,7 @@ class Post
     #self.author.name = Author #FIX
   end
 
+  def author_name 
+  end 
+
 end
