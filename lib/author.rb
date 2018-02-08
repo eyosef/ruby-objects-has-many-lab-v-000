@@ -4,8 +4,8 @@ class Author
   def initialize(name)
     @name=name
     @posts=[]
-    counter = 0
-    counter +=1
+    @@counter = 0
+    @@counter +=1
   end
 
   def posts
