@@ -9,7 +9,7 @@ class Song
   end
 
   def artist_name
-    self.artist ? "#{artist}" : nil
+    self.artist ? self.artist.name : nil
   end
 
 
