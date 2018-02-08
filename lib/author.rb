@@ -18,4 +18,6 @@ class Author
     post = post.new(post)
   end
 
+  def post_count
+
 end
