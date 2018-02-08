@@ -13,8 +13,8 @@ class Post
     #self.author.name = Author #FIX
   end
 
-  def author_name 
-    self.author.name : nil
-  end 
+  def author_name
+    self.author ? self.author.name : nil
+  end
 
 end
