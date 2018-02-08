@@ -25,7 +25,7 @@ class Artist
     @songs << song
   end
 
-  def self.song_count
+  def self.song_count #FIX
     @@song_count
   end
 
