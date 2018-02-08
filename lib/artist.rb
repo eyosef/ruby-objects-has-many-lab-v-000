@@ -7,7 +7,6 @@ class Artist
     @songs = []
     @@song_count = 0
     @@song_count += 1 #adds 1 every time the name of an artist is instantiated
-    binding.pry
   end
 
   def songs
