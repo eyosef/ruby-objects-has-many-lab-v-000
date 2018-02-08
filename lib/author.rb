@@ -5,7 +5,7 @@ class Author
     @name=name
     @posts=[]
     @@post_count = 0
-    @@counter +=1
+    @@post_count +=1
   end
 
   def posts
