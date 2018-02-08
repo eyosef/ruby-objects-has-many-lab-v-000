@@ -6,7 +6,7 @@ class Artist
     @name=name
     @songs = []
     @@song_count = 0
-    @@song_count += 1 #adds 1 every time the name of an artist is instantiated
+    #@@song_count += 1 #adds 1 every time the name of an artist is instantiated
   end
 
   def songs
