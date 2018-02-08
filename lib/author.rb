@@ -14,7 +14,7 @@ class Author
 
   def add_post(post) #FIX
     @posts << post
-    self = post.author
+    post.author = self
     @@post_count += 1
   end
 
