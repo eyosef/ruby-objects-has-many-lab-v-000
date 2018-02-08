@@ -10,6 +10,7 @@ class Post
   end
 
   def author
+    self.title = author
   end
 
 end
